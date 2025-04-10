@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+body{
+    background: #070824;
+}
+/* All common css end  */
+.head{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 10%;
+}
+.menu{
+    width: 75%;
+    text-align: right;
+}
+.button{
+    width:15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button a{
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.578);
+    padding: 9px 10px;
+    color: #93F2FF;
+    transition: 2s;
+}
+.menu ul li{
+    display:inline-block ;
+}
+.menu ul li a{
+    color:#D7D9FF;
+    font-family: "Merriweather", serif;
+    font-size: 14px;
+    width: 500px;
+    padding: 0 15px;
+    transition: 1s;
+}
+.button a:hover{
+    background-color: #93F2FF;
+    color: #070824;
+}
+.menu ul li a:hover{
+    border-bottom: 3px solid #93F2FF;
+}
+.bannerpart{
+    margin-top: 130px;
+    position: relative;
+}
+.right{
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+}
+.left h1{
+    color: #93F2FF;
+    width: 652px;
+    position: absolute;
+    top:40%;
+    left:10%;
+    font-size:70px;
+
+}
+.left h1 samp{
+    color: white;
+}
+.lefticon{
+    position: absolute;
+    top:30%;
+    left:10%;
+}
+.sroll{
+    position: absolute;
+    bottom:5%;
+    left:10%;
+
+}
+.button2{
+    position: absolute;
+    bottom:20%;
+    left: 10%;
+}
+.text{
+    padding-top: 100px;
+    position: relative;
+    text-align: center;
+}
+.text2{
+    position: absolute;
+    left:33%;
+    bottom:-60%;
+}
+.row{
+    justify-content: space-between;
+    display: flex;
+    padding-top:140px;
+    position: relative;
+}
+.rowrow{
+    justify-content: space-between;
+    display: flex;
+    padding-top:100px;
+    position: relative;
+}
+.contant{
+    position: absolute;
+    padding-top:50px;
+    padding-left: 50px;
+}
+.contant1{
+    position: absolute;
+    padding-top:50px;
+    padding-left: 50px;
+}
+.contant2{
+    position: absolute;
+    padding-top:50px;
+    padding-left: 50px;
+}
+.contant3{
+    position: absolute;
+    padding-top:50px;
+    padding-left: 50px;
+}
+.contant4{
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.contant5{
+    position: absolute;
+    padding-top:50px;
+    padding-left: 50px;
+}
