@@ -63,10 +63,10 @@ body{
     margin-top: 130px;
     position: relative;
 }
-.right{
-    position: absolute;
-    bottom:-21%;
-    right:15%;
+.right img{
+    position:absolute;
+    bottom:0%;
+    right:10%;
 }
 .left h1{
     color: #93F2FF;
